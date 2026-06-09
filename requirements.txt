@@ -11,3 +11,4 @@ Werkzeug==3.1.8
 pydantic
 sqlalchemy
 openai
+gunicorn
