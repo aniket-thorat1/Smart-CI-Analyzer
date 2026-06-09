@@ -1,6 +1,5 @@
 from pydantic import BaseModel
 
-
 class AnalysisResultResponse(BaseModel):
 
     stepName: str
@@ -10,6 +9,8 @@ class AnalysisResultResponse(BaseModel):
     solution: str
 
     source: str
+
+    confidence: float
 
 
 class AnalyzeResponse(BaseModel):
