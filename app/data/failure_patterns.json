@@ -1,0 +1,26 @@
+{
+  "NU1101": {
+    "cause": "Missing NuGet Package",
+    "solution": "Verify NuGet source configuration and run dotnet restore."
+  },
+
+  "CS0246": {
+    "cause": "Missing Namespace or Assembly",
+    "solution": "Verify project references and install missing packages."
+  },
+
+  "OutOfMemoryError": {
+    "cause": "Memory Exhaustion",
+    "solution": "Increase memory allocation or optimize workload."
+  },
+
+  "ModuleNotFoundError": {
+    "cause": "Missing Python Package",
+    "solution": "Install required package and update requirements.txt."
+  },
+
+  "npm ERR!": {
+    "cause": "Node Package Installation Failure",
+    "solution": "Clear npm cache and reinstall dependencies."
+  }
+}

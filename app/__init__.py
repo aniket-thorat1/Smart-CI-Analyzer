@@ -2,6 +2,8 @@ from flask import Flask
 from flask_cors import CORS
 
 from app.routes.health import health_bp
+from app.routes.analyzer import analyzer_bp
+
 
 def create_app():
 
@@ -9,12 +11,19 @@ def create_app():
 
     CORS(app)
 
-    app.register_blueprint(health_bp)
+    app.register_blueprint(
+        health_bp
+    )
+
+    app.register_blueprint(
+        analyzer_bp
+    )
 
     @app.errorhandler(Exception)
     def handle_error(error):
+
         return {
-            "message": str(error)
+            "error": str(error)
         }, 500
 
     return app
