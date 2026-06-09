@@ -22,5 +22,295 @@
   "npm ERR!": {
     "cause": "Node Package Installation Failure",
     "solution": "Clear npm cache and reinstall dependencies."
+  },
+
+  "NU1100": {
+    "cause": "Dependency Resolution Failure",
+    "solution": "Review package dependencies and version constraints."
+  },
+
+  "NU1301": {
+    "cause": "NuGet Feed Unavailable",
+    "solution": "Verify package source URL and network connectivity."
+  },
+
+  "NETSDK1004": {
+    "cause": "Assets File Missing",
+    "solution": "Run dotnet restore before building."
+  },
+
+  "CS0103": {
+    "cause": "Undefined Identifier",
+    "solution": "Check variable, method, or class declarations."
+  },
+
+  "CS0234": {
+    "cause": "Missing Namespace",
+    "solution": "Add the required assembly or package reference."
+  },
+
+  "MSB3073": {
+    "cause": "Build Command Failed",
+    "solution": "Inspect command output and resolve the underlying failure."
+  },
+
+  "ImportError": {
+    "cause": "Python Import Failure",
+    "solution": "Verify module availability and package installation."
+  },
+
+  "SyntaxError": {
+    "cause": "Invalid Python Syntax",
+    "solution": "Fix syntax issues in the source code."
+  },
+
+  "IndentationError": {
+    "cause": "Invalid Indentation",
+    "solution": "Correct indentation levels and formatting."
+  },
+
+  "AttributeError": {
+    "cause": "Missing Object Attribute",
+    "solution": "Verify object type and attribute names."
+  },
+
+  "KeyError": {
+    "cause": "Missing Dictionary Key",
+    "solution": "Check key existence before accessing it."
+  },
+
+  "FileNotFoundError": {
+    "cause": "Missing File",
+    "solution": "Verify the file path and existence."
+  },
+
+  "PermissionError": {
+    "cause": "Insufficient File Permissions",
+    "solution": "Grant required permissions to the process."
+  },
+
+  "TypeError": {
+    "cause": "Invalid Data Type Usage",
+    "solution": "Validate argument and variable types."
+  },
+
+  "ValueError": {
+    "cause": "Invalid Value",
+    "solution": "Verify input values and expected ranges."
+  },
+
+  "npm ERR! ERESOLVE": {
+    "cause": "Dependency Conflict",
+    "solution": "Resolve package version conflicts."
+  },
+
+  "npm ERR! ENOENT": {
+    "cause": "Missing File or Directory",
+    "solution": "Verify referenced files exist."
+  },
+
+  "npm ERR! ETARGET": {
+    "cause": "Package Version Not Found",
+    "solution": "Use a valid published package version."
+  },
+
+  "npm ERR! EACCES": {
+    "cause": "Permission Denied",
+    "solution": "Correct npm permissions or ownership."
+  },
+
+  "npm ERR! ECONNRESET": {
+    "cause": "Network Connection Reset",
+    "solution": "Retry installation and verify connectivity."
+  },
+
+  "ERR_MODULE_NOT_FOUND": {
+    "cause": "Missing Node Module",
+    "solution": "Install the required package and verify imports."
+  },
+
+  "fatal: repository not found": {
+    "cause": "Repository Unavailable",
+    "solution": "Verify repository URL and permissions."
+  },
+
+  "fatal: Authentication failed": {
+    "cause": "Invalid Credentials",
+    "solution": "Update token, SSH key, or credentials."
+  },
+
+  "fatal: could not read Username": {
+    "cause": "Missing Git Credentials",
+    "solution": "Configure authentication before cloning."
+  },
+
+  "fatal: not a git repository": {
+    "cause": "Invalid Git Directory",
+    "solution": "Run command inside a valid repository."
+  },
+
+  "detected dubious ownership in repository": {
+    "cause": "Git Safe Directory Restriction",
+    "solution": "Add repository path to safe.directory."
+  },
+
+  "Process completed with exit code 1": {
+    "cause": "General Command Failure",
+    "solution": "Inspect previous logs for the root cause."
+  },
+
+  "Process completed with exit code 127": {
+    "cause": "Command Not Found",
+    "solution": "Verify executable installation and PATH configuration."
+  },
+
+  "Process completed with exit code 137": {
+    "cause": "Process Killed Due To Memory Limits",
+    "solution": "Increase available memory or optimize workload."
+  },
+
+  "Process completed with exit code 143": {
+    "cause": "Process Terminated",
+    "solution": "Check timeout or cancellation events."
+  },
+
+  "Resource not accessible by integration": {
+    "cause": "Insufficient GitHub Token Permissions",
+    "solution": "Grant required permissions to GITHUB_TOKEN."
+  },
+
+  "The operation was canceled": {
+    "cause": "Workflow Cancellation",
+    "solution": "Check concurrency rules or manual cancellations."
+  },
+
+  "No space left on device": {
+    "cause": "Disk Exhaustion",
+    "solution": "Clean caches, artifacts, or use a larger runner."
+  },
+
+  "Artifact not found": {
+    "cause": "Missing Workflow Artifact",
+    "solution": "Verify artifact creation and upload steps."
+  },
+
+  "Cache not found": {
+    "cause": "Cache Miss",
+    "solution": "Verify cache key configuration."
+  },
+
+  "Compilation failure": {
+    "cause": "Compilation Error",
+    "solution": "Review compiler output and fix code issues."
+  },
+
+  "cannot find symbol": {
+    "cause": "Undefined Java Symbol",
+    "solution": "Verify imports and declarations."
+  },
+
+  "DependencyResolutionException": {
+    "cause": "Dependency Resolution Failure",
+    "solution": "Verify repository and dependency configuration."
+  },
+
+  "NoClassDefFoundError": {
+    "cause": "Missing Runtime Class",
+    "solution": "Ensure dependency is available on runtime classpath."
+  },
+
+  "ClassNotFoundException": {
+    "cause": "Missing Class",
+    "solution": "Add required dependency or update classpath."
+  },
+
+  "manifest unknown": {
+    "cause": "Docker Image Tag Not Found",
+    "solution": "Verify image name and tag."
+  },
+
+  "pull access denied": {
+    "cause": "Registry Access Denied",
+    "solution": "Authenticate with the container registry."
+  },
+
+  "failed to solve": {
+    "cause": "Docker Build Failure",
+    "solution": "Review Docker build logs."
+  },
+
+  "image not found": {
+    "cause": "Container Image Missing",
+    "solution": "Verify image availability."
+  },
+
+  "CrashLoopBackOff": {
+    "cause": "Container Repeatedly Crashing",
+    "solution": "Inspect pod logs and startup configuration."
+  },
+
+  "ImagePullBackOff": {
+    "cause": "Image Pull Failure",
+    "solution": "Verify image path and registry credentials."
+  },
+
+  "ErrImagePull": {
+    "cause": "Container Image Unavailable",
+    "solution": "Ensure image exists and is accessible."
+  },
+
+  "context deadline exceeded": {
+    "cause": "Operation Timeout",
+    "solution": "Check service responsiveness and network latency."
+  },
+
+  "Connection refused": {
+    "cause": "Target Service Unavailable",
+    "solution": "Verify service status and connectivity."
+  },
+
+  "ECONNRESET": {
+    "cause": "Connection Reset",
+    "solution": "Investigate network and server stability."
+  },
+
+  "ETIMEDOUT": {
+    "cause": "Network Timeout",
+    "solution": "Increase timeout or troubleshoot connectivity."
+  },
+
+  "Permission denied": {
+    "cause": "Insufficient Permissions",
+    "solution": "Grant required filesystem or service permissions."
+  },
+
+  "Killed": {
+    "cause": "Process Terminated By System",
+    "solution": "Check memory usage and system limits."
+  },
+
+  "Segmentation fault": {
+    "cause": "Invalid Memory Access",
+    "solution": "Review native code and dependencies."
+  },
+
+  "Error acquiring state lock": {
+    "cause": "Terraform State Locked",
+    "solution": "Release the lock and retry."
+  },
+
+  "Provider configuration not present": {
+    "cause": "Terraform Provider Missing",
+    "solution": "Configure the required provider."
+  },
+
+  "Invalid resource reference": {
+    "cause": "Terraform Resource Reference Error",
+    "solution": "Verify resource names and dependencies."
+  },
+
+  "__UNKNOWN__": {
+    "cause": "Unrecognized CI/CD Error",
+    "solution": "Analyze surrounding logs and use AI classification."
   }
 }
