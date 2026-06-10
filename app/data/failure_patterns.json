@@ -40,8 +40,8 @@
   },
 
   "CS0103": {
-    "cause": "Undefined Identifier",
-    "solution": "Check variable, method, or class declarations."
+    "cause": "Undefined variable, method, or object reference",
+    "solution": "Ensure the referenced identifier exists, is correctly spelled, and is accessible within the current scope. Check for missing declarations, incorrect names, or missing namespace/class references."
   },
 
   "CS0234": {
